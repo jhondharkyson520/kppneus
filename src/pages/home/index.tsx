@@ -76,7 +76,7 @@ export function Home(){
     
 
     return(
-        <div className='w-full max-w-7xl mx-auto px-4'>
+        <div className='w-full max-w-7xl mx-auto px-4 mt-10'>
           
             <Swiper 
             className='shadow-2xl rounded-lg'         
