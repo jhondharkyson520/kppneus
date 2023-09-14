@@ -15,18 +15,18 @@ export function Header() {
     };
 
     return (
-        <header className="bg-white p-4 shadow-2xl mt-5 h-3 sm:h-auto sm:mt-10">
+        <header className="bg-slate-700 p-4 shadow-2xl h-30 sm:h-36">
             <div className="container mx-auto flex justify-between items-center h-14 ">
                 <Link to='/'>
                     <img
-                        src={logo}
+                        src={logoS}
                         alt="Logo"
-                        className='sm:w-1/3 w-1/4 ml-4 sm:rounded-s-none mb-14 sm:mb-0 rounded-full '
+                        className='sm:w-1/2 w-2/3 sm:rounded-s-none mb-0 sm:mt-12 rounded-full '
                         
                     />
                 </Link>
                 <button
-                    className="text-black sm:hidden hover:text-amber-400 sm:mb-0 mb-14"
+                    className="text-white sm:hidden hover:text-amber-400 sm:mb-0"
                     onClick={toggleMenu}
                 >
                     <svg
@@ -98,23 +98,23 @@ export function Header() {
                     </div>
                 )}
 
-                <nav className="items-center justify-center h-full space-x-10 hidden md:block text-2xl mt-6">
+                <nav className="items-center justify-center h-full space-x-10 hidden md:block sm:mt-16 text-2xl mt-6">
 
 
                     <Link to='/sobre'>
-                        <a className="text-slate-800 hover:text-amber-400">Sobre</a>
+                        <a className="text-white hover:text-amber-400">Sobre</a>
                     </Link>
                     <Link to='/services'>
-                        <a className="text-slate-800 hover:text-amber-400">Serviços</a>
+                        <a className="text-white hover:text-amber-400">Serviços</a>
                     </Link>
                     <Link to='/consertos'>
-                        <a href="#" className="text-slate-800 hover:text-amber-400">Consertos</a>
+                        <a href="#" className="text-white hover:text-amber-400">Consertos</a>
                     </Link>
                     <Link to='/products'>
-                        <a href="#" className="text-slate-800 hover:text-amber-400">Produtos</a>
+                        <a href="#" className="text-white hover:text-amber-400">Produtos</a>
                     </Link>
                     <Link to='/contact'>
-                        <a href="#" className="text-slate-800 hover:text-amber-400">Contato</a>
+                        <a href="#" className="text-white hover:text-amber-400">Contato</a>
                     </Link>
 
                 </nav>

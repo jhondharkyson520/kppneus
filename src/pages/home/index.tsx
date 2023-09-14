@@ -12,15 +12,9 @@ import 'swiper/swiper-bundle.css';
 import Logo from '../../assets/logo.png'
 import WhatsAppButton from '../../components/ButtonWhatsApp';
 
-
 import SwiperCore from 'swiper';
 import { Autoplay } from 'swiper/modules';
 SwiperCore.use([Autoplay]);
-
-
-
-
-
 
 import imageSlider1 from '../../assets/pneus/pneu-remold-remoldado-refrisagem-refrisado.webp'
 import imageSlider2 from '../../assets/pneus/caminhao.png'
@@ -32,8 +26,6 @@ import imgCarga from '../../assets/pneus/carga.jpg'
 import imgFiltros from '../../assets/pneus/filtros.jpg'
 import imgMoto from '../../assets/pneus/moto.jpg'
 import imgRodas from '../../assets/pneus/rodas.jpg'
-import { Footer } from '../../components/Footer';
-
 
 
 export function Home(){

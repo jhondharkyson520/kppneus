@@ -1,6 +1,4 @@
-import { Link } from 'react-router-dom'
 import logoS from '../../assets/logosemfundo.png'
-import { useState } from 'react'
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
 
 export function Footer(){
