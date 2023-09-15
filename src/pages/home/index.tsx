@@ -145,8 +145,8 @@ export function Home(){
                 className='bg-white rounded-lg'
                 
               >          
-                  <SwiperSlide className='cursor-pointer hover:text-amber-400 shadow-2xl'>
-                      <p className='font-medium text-xl text-center cursor-pointer mb-7 mt-7 hover:scale-105'>Pneus Carga</p>
+                  <SwiperSlide className=' hover:text-amber-400 shadow-2xl'>
+                      <p className='font-medium text-xl text-center mb-7 mt-7 hover:scale-105 cursor-default'>Pneus Carga</p>
                       <img 
                         src={imgCarga} 
                         alt="Imagem01"
@@ -155,8 +155,8 @@ export function Home(){
                       
                     </SwiperSlide>
 
-                    <SwiperSlide className='cursor-pointer hover:text-amber-400 shadow-2xl '>
-                      <p className='font-medium text-xl text-center cursor-pointer mb-7 mt-7 hover:scale-105'>Filtros e Lubrificantes</p>
+                    <SwiperSlide className=' hover:text-amber-400 shadow-2xl '>
+                      <p className='font-medium text-xl text-center mb-7 mt-7 cursor-default hover:scale-105'>Filtros e Lubrificantes</p>
                       <img 
                         src={imgFiltros} 
                         alt="Imagem01"
@@ -164,8 +164,8 @@ export function Home(){
                       />
                      </SwiperSlide> 
 
-                    <SwiperSlide className='cursor-pointer hover:text-amber-400 shadow-2xl '>
-                      <p className='font-medium text-xl text-center cursor-pointer mb-7 mt-7 hover:scale-105'>Pneus Agro</p>
+                    <SwiperSlide className=' hover:text-amber-400 shadow-2xl '>
+                      <p className='font-medium text-xl text-center cursor-default mb-7 mt-7 hover:scale-105'>Pneus Agro</p>
                       <img 
                         src={imgAgro} 
                         alt="Imagem01"
@@ -173,8 +173,8 @@ export function Home(){
                       />                      
                     </SwiperSlide>
 
-                    <SwiperSlide className='cursor-pointer hover:text-amber-400  shadow-2xl'>
-                      <p className='font-medium text-xl text-center cursor-pointer mb-7 mt-7 hover:scale-105'>Pneus de Moto</p>                  
+                    <SwiperSlide className=' hover:text-amber-400  shadow-2xl'>
+                      <p className='font-medium text-xl text-center cursor-default mb-7 mt-7 hover:scale-105'>Pneus de Moto</p>                  
                       <img 
                         src={imgMoto} 
                         alt="Imagem01"
@@ -182,8 +182,8 @@ export function Home(){
                       />                      
                     </SwiperSlide>
 
-                    <SwiperSlide className='cursor-pointer hover:text-amber-400 shadow-2xl'>                  
-                      <p className='font-medium text-xl text-center cursor-pointer mb-7 mt-7 hover:scale-105'>Borracharia</p>
+                    <SwiperSlide className=' hover:text-amber-400 shadow-2xl'>                  
+                      <p className='font-medium text-xl text-center cursor-default mb-7 mt-7 hover:scale-105'>Borracharia</p>
                       <img 
                         src={imgBorracharia} 
                         alt="Imagem01"
@@ -191,8 +191,8 @@ export function Home(){
                       />                      
                     </SwiperSlide>
 
-                    <SwiperSlide className='cursor-pointer hover:text-amber-400 shadow-2xl'>
-                      <p className='font-medium text-xl text-center cursor-pointer mb-7 mt-7 hover:scale-105'>Rodas</p>
+                    <SwiperSlide className=' hover:text-amber-400 shadow-2xl'>
+                      <p className='font-medium text-xl text-center cursor-default mb-7 mt-7 hover:scale-105'>Rodas</p>
                       <img 
                         src={imgRodas} 
                         alt="Imagem01"
