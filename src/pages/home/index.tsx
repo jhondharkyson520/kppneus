@@ -2,6 +2,7 @@
 import { Swiper, SwiperSlide} from 'swiper/react';
 import {useEffect, useState} from 'react';
 import { register } from 'swiper/element/bundle'
+import { Link } from 'react-router-dom';
 register();
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -20,12 +21,13 @@ import imageSlider1 from '../../assets/pneus/pneu-remold-remoldado-refrisagem-re
 import imageSlider2 from '../../assets/pneus/caminhao.png'
 import imageSlider3 from '../../assets/pneus/maopneu.jpg'
 
-import imgAgro from '../../assets/pneus/agro.jpg'
-import imgBorracharia from '../../assets/pneus/borracharia.jpg'
-import imgCarga from '../../assets/pneus/carga.jpg'
-import imgFiltros from '../../assets/pneus/filtros.jpg'
-import imgMoto from '../../assets/pneus/moto.jpg'
+
 import imgRodas from '../../assets/pneus/rodas.jpg'
+import imgCarga from '../../assets/pneus/pneucaminhao.jpg'
+import imgFiltros from '../../assets/pneus/filtroselubrificantes.webp'
+import imgAgro from '../../assets/pneus/pneuagro.webp'
+import imgMoto from '../../assets/pneus/moto.jpg'
+import imgBorracharia from '../../assets/pneus/itensborracharia.webp'
 
 
 export function Home(){
@@ -146,8 +148,9 @@ export function Home(){
                 
               >          
                   <SwiperSlide className=' hover:text-amber-400 shadow-2xl'>
-                      <p className='font-medium text-xl text-center mb-7 mt-7 hover:scale-105 cursor-default'>Pneus Carga</p>
-                      <img 
+                      <Link to='/products'>
+                        <p className='font-medium text-xl text-center cursor-pointer mb-7 mt-7 hover:scale-105'>Pneus de Carga</p>
+                      </Link><img 
                         src={imgCarga} 
                         alt="Imagem01"
                         className='w-full h-96 object-cover rounded-lg shadow-2xl hover:scale-105 hover:transition-all' 
@@ -156,8 +159,9 @@ export function Home(){
                     </SwiperSlide>
 
                     <SwiperSlide className=' hover:text-amber-400 shadow-2xl '>
-                      <p className='font-medium text-xl text-center mb-7 mt-7 cursor-default hover:scale-105'>Filtros e Lubrificantes</p>
-                      <img 
+                      <Link to='/products'>
+                        <p className='font-medium text-xl text-center cursor-pointer mb-7 mt-7 hover:scale-105'>Filtros e Lubrificantes</p>
+                      </Link><img 
                         src={imgFiltros} 
                         alt="Imagem01"
                         className='w-full h-96 object-cover rounded-lg shadow-2xl hover:scale-105 hover:transition-all'
@@ -165,8 +169,9 @@ export function Home(){
                      </SwiperSlide> 
 
                     <SwiperSlide className=' hover:text-amber-400 shadow-2xl '>
-                      <p className='font-medium text-xl text-center cursor-default mb-7 mt-7 hover:scale-105'>Pneus Agro</p>
-                      <img 
+                      <Link to='/products'>
+                        <p className='font-medium text-xl text-center cursor-pointer mb-7 mt-7 hover:scale-105'>Pneus Agro</p>
+                      </Link><img 
                         src={imgAgro} 
                         alt="Imagem01"
                         className='w-full h-96 object-cover rounded-lg shadow-2xl hover:scale-105 hover:transition-all' 
@@ -174,8 +179,9 @@ export function Home(){
                     </SwiperSlide>
 
                     <SwiperSlide className=' hover:text-amber-400  shadow-2xl'>
-                      <p className='font-medium text-xl text-center cursor-default mb-7 mt-7 hover:scale-105'>Pneus de Moto</p>                  
-                      <img 
+                      <Link to='/products'>
+                        <p className='font-medium text-xl text-center cursor-pointer mb-7 mt-7 hover:scale-105'>Pneus de Moto</p>
+                      </Link><img 
                         src={imgMoto} 
                         alt="Imagem01"
                         className='w-full h-96 object-cover rounded-lg shadow-2xl hover:scale-105 hover:transition-all'
@@ -183,8 +189,9 @@ export function Home(){
                     </SwiperSlide>
 
                     <SwiperSlide className=' hover:text-amber-400 shadow-2xl'>                  
-                      <p className='font-medium text-xl text-center cursor-default mb-7 mt-7 hover:scale-105'>Borracharia</p>
-                      <img 
+                      <Link to='/products'>
+                        <p className='font-medium text-xl text-center cursor-pointer mb-7 mt-7 hover:scale-105'>Borracharia</p>
+                      </Link><img 
                         src={imgBorracharia} 
                         alt="Imagem01"
                         className='w-full h-96 object-cover rounded-lg shadow-2xl hover:scale-105 hover:transition-all'
@@ -192,7 +199,9 @@ export function Home(){
                     </SwiperSlide>
 
                     <SwiperSlide className=' hover:text-amber-400 shadow-2xl'>
-                      <p className='font-medium text-xl text-center cursor-default mb-7 mt-7 hover:scale-105'>Rodas</p>
+                      <Link to='/products'>
+                        <p className='font-medium text-xl text-center cursor-pointer mb-7 mt-7 hover:scale-105'>Rodas</p>
+                      </Link>
                       <img 
                         src={imgRodas} 
                         alt="Imagem01"

@@ -44,8 +44,9 @@ export function Products() {
                     border-2 w-full h-auto rounded-ss-3xl rounded-ee-3xl shadow-2xl 
                     hover:transition-all'
                 >
-                    <Link 
-                        to='/products/0' 
+                    <Link
+                        target='_blank' 
+                        to='https://api.whatsapp.com/send?phone=5517988334070&text=Olá, Kelvin gostaria de'
                         className='justify-center items-center flex flex-col rounded-ss-3xl  
                         bg-amber-300 shadow-lg'
                     >
@@ -71,8 +72,9 @@ export function Products() {
                     bg-white w-full h-auto rounded-ss-3xl rounded-ee-3xl shadow-2xl 
                     hover:transition-all'
                 >
-                    <Link 
-                        to='/products/1' 
+                    <Link
+                        target='_blank'  
+                        to='https://api.whatsapp.com/send?phone=5517988334070&text=Olá, Kelvin gostaria de' 
                         className='justify-center items-center flex flex-col rounded-ss-3xl  
                         bg-amber-300 shadow-lg'
                     >
@@ -100,7 +102,8 @@ export function Products() {
                     hover:transition-all'
                 >
                     <Link 
-                        to='/products/2' 
+                        target='_blank' 
+                        to='https://api.whatsapp.com/send?phone=5517988334070&text=Olá, Kelvin gostaria de' 
                         className='justify-center items-center flex flex-col rounded-ss-3xl  
                         bg-amber-300 shadow-lg'
                     >
@@ -126,7 +129,8 @@ export function Products() {
                     hover:transition-all'
                 >
                     <Link 
-                        to='/products/3' 
+                        target='_blank' 
+                        to='https://api.whatsapp.com/send?phone=5517988334070&text=Olá, Kelvin gostaria de' 
                         className='justify-center items-center flex flex-col rounded-ss-3xl  
                         bg-amber-300 shadow-lg'
                     >
@@ -153,7 +157,8 @@ export function Products() {
                     hover:transition-all'
                 >
                     <Link 
-                        to='/products/4' 
+                        target='_blank' 
+                        to='https://api.whatsapp.com/send?phone=5517988334070&text=Olá, Kelvin gostaria de' 
                         className='justify-center items-center flex flex-col rounded-ss-3xl  
                         bg-amber-300 shadow-lg'
                     >
