@@ -2,9 +2,12 @@ import { Link } from 'react-router-dom'
 import logoS from '../../assets/logosemfundo.png'
 import logo from '../../assets/logoheader.png'
 import { useState } from 'react'
+import { useContext } from 'react'
+import { AuthContext } from '../../context/AuthContext'
 
 export function Header() {
     const [openMenu, setOpenMenu] = useState(false);
+  
 
     const toggleMenu = () => {
         setOpenMenu(!openMenu);

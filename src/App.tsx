@@ -1,10 +1,5 @@
-import { createBrowserRouter } from "react-router-dom"
+import { createBrowserRouter, Routes, Route } from "react-router-dom"
 import { Home } from "./pages/home"
-/*import { Admin } from "./pages/admin"
-import { Login } from "./pages/login"
-import { Networks } from "./pages/networks"
-import { Private } from "./routes/Private"
-import { ErrorPage } from "./pages/error"*/
 import { Layout } from "./components/Layout";
 import { Sobre } from "./pages/sobre";
 import { Services } from "./pages/services";
@@ -12,6 +7,10 @@ import { Consertos } from "./pages/consertos";
 import { Products } from "./pages/products";
 import { Contact } from "./pages/contato";
 import { ProductDetail } from "./pages/products/detail";
+import { Login } from "./pages/login";
+import { Register } from "./pages/usersRegister";
+import { Dashboard } from "./pages/dashboard";
+import { Private } from "./routes/Private";
 
 
 const router = createBrowserRouter([
@@ -45,25 +44,21 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact/>
+      },
+      {
+        path: '/cadastrar',
+        element: <Private> <Register/> </Private>
+      },
+      {
+        path: '/dashboard',
+        element: <Private> <Dashboard/> </Private>
       }
     ]
-  }
- /* {
+  },
+  {
     path: '/login',
     element: <Login/>
-  },
-  {
-    path: '/admin',
-    element: <Private> <Admin/> </Private>
-  },
-  {
-    path: '/admin/social',
-    element: <Private> <Networks/> </Private>
-  },
-  {
-    path: '*',
-    element: <ErrorPage/>
-  }*/
+  }
 ])
 
 export {router};
