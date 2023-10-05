@@ -11,6 +11,11 @@ import { Login } from "./pages/login";
 import { Register } from "./pages/usersRegister";
 import { Dashboard } from "./pages/dashboard";
 import { Private } from "./routes/Private";
+import { ProductsDashboard } from "./pages/dashboard/productsDashboard";
+import { SalesDashboard } from "./pages/dashboard/salesDashboard";
+import { BalanceDashboard } from "./pages/dashboard/balanceDashboard";
+import { EntranceDashboard } from "./pages/dashboard/entranceDashboard";
+import { ExpensesDashboard } from "./pages/dashboard/expensesDashboard";
 
 
 const router = createBrowserRouter([
@@ -52,6 +57,26 @@ const router = createBrowserRouter([
       {
         path: '/dashboard',
         element: <Private> <Dashboard/> </Private>
+      },
+      {
+        path: '/dashboard/products',
+        element: <Private> <ProductsDashboard/> </Private>
+      },
+      {
+        path: '/dashboard/sales',
+        element: <Private> <SalesDashboard/> </Private>
+      },
+      {
+        path: '/dashboard/balance',
+        element: <Private> <BalanceDashboard/> </Private>
+      },
+      {
+        path: '/dashboard/entrance',
+        element: <Private> <EntranceDashboard/> </Private>
+      },
+      {
+        path: '/dashboard/expenses',
+        element: <Private> <ExpensesDashboard/> </Private>
       }
     ]
   },
