@@ -1,27 +1,27 @@
-# React + TypeScript + Vite
+# KPPneus - Borracharia **💻**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## **🚀 Tecnologias**
 
-Currently, two official plugins are available:
+Este repositório apresenta as seguintes tecnologias:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ReactJS
+- TailwindCss
+- TypeScript
 
-## Expanding the ESLint configuration
+## **💡 Projeto**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Desenvolvi este projeto com o objetivo de criar uma plataforma intuitiva e responsiva utilizando ReactJS, TailwindCss e TypeScript. 
 
-- Configure the top-level `parserOptions` property like this:
+### **🌐 Características Principais:**
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- **Intuitivo e Responsivo:** Priorizo a criação de uma interface intuitiva e responsiva para uma experiência de usuário agradável em diferentes dispositivos.
+- **Tecnologia :** Utilizo ReactJS para garantir um desenvolvimento eficiente e dinâmico. Além disso, integrei uma API externa para otimizar a comunicação.
+- **Estilo Moderno:** Busco um equilíbrio entre design moderno e eficiência.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Estou sempre em busca de desafios que me permitam aprimorar minhas habilidades e contribuir para a comunidade de desenvolvimento web. 🚀
+
+### **📷 Tela Inicial:**
+
+![TelaInicialKPPneus.png](https://i.ibb.co/rGXhP0P/Tela-Inicial-KPPneus.png)
+
+Se tiver alguma sugestão ou feedback, ficarei feliz em ouvir! Entre em contato. 📬
